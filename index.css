@@ -807,6 +807,8 @@ footer span a:hover{
 
  
 
+  /* Grids css */
+
   .grid-container {
 
     display: grid;
@@ -843,7 +845,7 @@ footer span a:hover{
 
     overflow: hidden;
 
-    background-color: #FAF8F1;
+    background-color: #f8f8f8;
 
     transition: transform 0.3s, box-shadow 0.3s;
 
@@ -865,7 +867,7 @@ footer span a:hover{
 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
-    background-color: whitesmoke;
+    background-color: rgb(236, 214, 214);
 
   }
 
@@ -923,7 +925,7 @@ footer span a:hover{
 
     background-color: #FF5403;
 
-    color: white;
+    color: rgb(246, 223, 223);
 
     text-decoration: none;
 
@@ -965,7 +967,7 @@ footer span a:hover{
 
 /* projects css */
 /* CSS for the projects section */
-.projects {
+/* .projects {
     background-color: #f9f9f9;
     padding: 80px 0;
     text-align: center;
@@ -1006,7 +1008,7 @@ footer span a:hover{
     font-size: 14px;
     margin-top: 10px;
     color: #777;
-}
+} */
 
 /* Adjust these styles as needed to match your design preferences */
 
