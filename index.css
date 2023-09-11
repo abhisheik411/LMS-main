@@ -750,15 +750,15 @@ footer span a:hover{
     z-index: 100;
 }
 
-.navbar ul {
+/* .navbar ul {
     list-style: none;
     padding: 0;
-}
+} */
 
-.navbar ul li {
+/* .navbar ul li {
     display: inline;
     margin: 0 15px;
-}
+} */
 
 .navbar a {
     text-decoration: none;
@@ -867,7 +867,7 @@ footer span a:hover{
 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
-    background-color: rgb(236, 214, 214);
+    background-color: white;
 
   }
 
