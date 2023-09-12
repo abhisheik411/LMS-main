@@ -312,7 +312,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "What we Offer";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -808,7 +808,7 @@ footer span a:hover{
  
 
   /* Grids css */
-
+/* 
   .grid-container {
 
     display: grid;
@@ -878,6 +878,79 @@ footer span a:hover{
     width: 100%;
 
     height: 100%;
+
+    object-fit: cover;
+
+  } */
+  .grid-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+
+    grid-gap: 50px;
+
+    max-width: 960px;
+
+    margin: 0 auto;
+
+    border-color: black;
+
+  }
+
+ 
+
+  .grid-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center; /* Center vertically */
+
+    align-items: center; /* Center horizontally */
+
+    text-align: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background-color: white;
+
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    width: 250px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    margin: auto; /* Center both vertically and horizontally */
+
+  }
+
+ 
+
+  .grid-item:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    background-color: white;
+
+  }
+
+ 
+
+  .image {
+
+    width: 150px;
+
+    height: 150px;
 
     object-fit: cover;
 
